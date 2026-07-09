@@ -11,8 +11,8 @@ public class DBConnection {
 
         return DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/vehiclerental?useSSL=false&serverTimezone=UTC",
-            "root",
-            "yash"
+            "username",
+            "password"
         );
     }
 }
